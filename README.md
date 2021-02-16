@@ -7,7 +7,9 @@
 
 ### Two modeling methods implemented in this repo:
 * Rigde regression with stepwise forward selection marketing hyperparamter tunning (**stepwise_mkt_param** folder)
-
+  - This model performs a forward stepwise search for optimal marketingtransformation parameters
+  - Brute force to select the media variable with positive coefficients in each iteration
+  
 * Ridge regression with concurrent marketing hyperparameter tunning (**cncr_mkt_param** folder)
   - This model finds optimal marketing transformation parameter simultaneously
   - After optimal parameters are identified, fit into a customized non-negative ridge regression (using scipy ```differental_evulation``` to minized the loss function with postive bounds on the marketin variables)
