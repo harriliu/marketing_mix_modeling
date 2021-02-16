@@ -5,4 +5,5 @@
 2. decay/adstock
 3. lag
 
-### 
+### Two modeling methods implemented in this repo
+* 
