@@ -12,7 +12,7 @@ from scipy.optimize import minimize, differential_evolution
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
 
-class model(object):
+class cncr_model(object):
   
   def __init__(self,
                seed = None, 
