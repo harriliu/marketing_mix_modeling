@@ -5,7 +5,7 @@
 2. decay/adstock: Advertising adstock is a term used for measuring the memory effect carried over from the time of first starting advertisements.
 3. lag: A lag effect is used to represent the effect of a previous value of a lagged variable when there is some inherent ordering of the observations of this variable. 
 
-### Two modeling methods implemented in this repo:
+### Two modeling methods in this repo:
 * Rigde regression with stepwise forward selection marketing hyperparamter tunning (**stepwise_mkt_param** folder)
   - This model performs a forward stepwise search for optimal marketingtransformation parameters
   - Brute force to select the media variable with positive coefficients in each iteration
