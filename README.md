@@ -1,4 +1,4 @@
-# marketing_mix_modeling (MMM)
+# Learning by doing - marketing_mix_modeling (MMM)
 
 ### In a marketing mix model, we embeded three types of marketing variable transformations in the modeling process to better describe relationship between marketing variables and business metrics:
 1. saturation curve: To account for diminishing return of marketing activities. (<img src="https://render.githubusercontent.com/render/math?math=S%20=%20\beta^{\alpha^x}">)
